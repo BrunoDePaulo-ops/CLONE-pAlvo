@@ -1,5 +1,10 @@
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center;    /* Centraliza verticalmente */
+  min-height: 100vh;      /* Garante que a área ocupe a tela inteira */
+  padding: 40px;
+  background-color: #ffffff;
 }
 
 .App-logo {
